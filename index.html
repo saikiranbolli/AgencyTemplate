@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agency</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/responsive.css">
+  </head>
+  <body>
+    <nav class="">
+        <div class="bg-dark container-fluid">
+            <div class="row py-2">
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center gap-3 nav_icons justify-content-lg-start justify-content-center pb-md-0 pb-2">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                              </svg>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                              </svg>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-google" viewBox="0 0 16 16">
+                                <path d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"/>
+                              </svg>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                              </svg>
+                        </a>
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-youtube" viewBox="0 0 16 16">
+                                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                              </svg>
+                        </a>  
+                    </div>
+                </div>
+                <div class="col-md-6 pe-3 pt-lg-0 pt-2 text-end">
+                    <div class="d-flex gap-3 align-items-center justify-content-lg-end justify-content-between">
+                        <div class="d-flex flex-column flex-lg-row gap-lg-3">
+                            <a href="tel:+1(234)-56-78-90" class="text-white text-decoration-none tel_num">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#90c43c" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                                    </svg>
+                            +1(234)-56-78-90</a>
+                            <a href="tel:+1(234)-56-78-90" class="text-white text-decoration-none tel_num">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#90c43c" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                                    </svg>
+                            +1(234)-56-78-90</a>
+                        </div>
+                        <div>
+                           <button class="agency_bg_color text-white font-7 py-1 px-2 border-0 rounded-1">CALL ME BACK</button>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="nav py-1">
+                <input type="checkbox" id="nav-check">
+                <div class="nav-header">
+                  <div class="nav-title">
+                    <div class="agency_logo">
+                        <img src="./images/logo.png" class="" alt="logo"/>
+                    </div>
+                  </div>
+                </div>
+                <div class="nav-btn">
+                  <label for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </label>
+                </div>
+                
+                <div class="nav-links pe-3 agency_nav_items">
+                        <a href="#" class="text-decoration-none text-dark">WHY US</a>
+                        <a href="#" class="text-decoration-none text-dark">ABOUT</a>
+                        <a href="#" class="text-decoration-none text-dark">SERVICES</a>
+                        <a href="#" class="text-decoration-none text-dark active fw-bold">PORTFOLIO</a>
+                        <a href="#" class="text-decoration-none text-dark">PROCESS</a>
+                        <a href="#" class="text-decoration-none text-dark">REVIEWS</a>
+                        <a href="#" class="text-decoration-none text-dark">OUR SKILLS</a>
+                        <a href="#" class="text-decoration-none text-dark">CONTACT US</a>
+                </div>
+              </div>
+        </div>
+    </nav>
+    <article>
+        <section class="agency_bg_color">
+            <div id="carouselExampleCaptions" class="carousel slide pt-md-0 pt-4" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner pt-md-0 pt-5">
+                  <div class="carousel-item active">
+                    <img src="./images/golden-wave-line-element-png.webp" class="d-block mx-auto" alt="...">
+                    <div class="carousel-caption">
+                      <h1 class="fw-bold carousel_text">WE ARE EXPERTS</h1>
+                      <p class="mx-auto mt-1 mt-md-2">Lorem ipsum dolor sit amet consectetur adipisicing elit, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
+                      <button class="read_more font-7 border-top-0 border-start-0 border-end-0 rounded-1 py-1 px-3 fw-bold my-md-3">READ MORE</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/golden-wave-line-element-png.webp" class="d-block mx-auto" alt="...">
+                    <div class="carousel-caption">
+                        <h1 class="fw-bold carousel_text">WE ARE EXPERTS</h1>
+                        <p class="mx-auto mt-1 mt-mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
+                        <button class="read_more font-7 border-top-0 border-start-0 border-end-0 rounded-1 py-1 px-3 fw-bold my-md-3">READ MORE</button>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/golden-wave-line-element-png.webp" class="d-block mx-auto" alt="...">
+                    <div class="carousel-caption">
+                        <h1 class="fw-bold carousel_text">WE ARE EXPERTS</h1>
+                        <p class="mx-auto mt-md-2 mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
+                        <button class="read_more font-7 border-top-0 border-start-0 border-end-0 rounded-1 py-1 px-3 fw-bold my-md-3">READ MORE</button>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section class="container agency_section_two">
+            <div class=" text-center py-4">
+                <h1 class="fw-bold pt-md-4">OUR <span class="agency_theme_color">ADVANTAGES</span></h1>
+                <p class="agency_secondary_color mx-auto mt-md-4">Lorem ipsum dolor sit amet consectetur adipisicing elit, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
+            </div>
+            <div class="d-flex flex-lg-row flex-column justify-content-evenly py-md-5 py-3">
+                <div>
+                    <div class="agency_advantage_color d-block mx-auto py-4 rounded-circle text-center">
+                        <img src="./images/bulb.png" alt="buld">
+                    </div>
+                    <div class="text-center mt-2">
+                        <h6 class="fw-bold">INNOVATION</h6>
+                        <p class="agency_secondary_color font-7">Lorem ipsum dolor sit amet consectetur adipisicing elit, sed diam nonumy eirmod</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="agency_advantage_color d-block mx-auto py-4 rounded-circle text-center">
+                        <img src="./images/like.png" alt="buld">
+                    </div>
+                    <div class="text-center mt-2">
+                        <h6 class="fw-bold">QUALITY</h6>
+                        <p class="agency_secondary_color font-7">Lorem ipsum dolor sit amet consectetur adipisicing elit, sed diam nonumy eirmod</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="agency_advantage_color d-block mx-auto py-4 rounded-circle text-center">
+                        <img src="./images/clock.png" alt="buld">
+                    </div>
+                    <div class="text-center mt-2">
+                        <h6 class="fw-bold">EXPERIENCE</h6>
+                        <p class="agency_secondary_color font-7">Lorem ipsum dolor sit amet consectetur adipisicing elit, sed diam nonumy eirmod</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="agency_advantage_color d-block mx-auto py-4 rounded-circle text-center">
+                        <img src="./images/group.png" alt="buld">
+                    </div>
+                    <div class="text-center mt-2">
+                        <h6 class="fw-bold">HAPPY CLIENTS</h6>
+                        <p class="agency_secondary_color font-7">Lorem ipsum dolor sit amet consectetur adipisicing elit, sed diam nonumy eirmod</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="agency_advantage_color d-block mx-auto py-4 rounded-circle text-center">
+                        <img src="./images/message.png" alt="buld">
+                    </div>
+                    <div class="text-center mt-2">
+                        <h6 class="fw-bold">SUPPORT</h6>
+                        <p class="agency_secondary_color font-7">Lorem ipsum dolor sit amet consectetur adipisicing elit, sed diam nonumy eirmod</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class=" agency_bg_color agency_project">
+            <div class="container text-center py-3">
+                <h1 class="text-white fw-bold py-4 text-uppercase">start your new project</h1>
+                <form class="row align-items-center py-md-4 py-3 px-md-0 px-3">
+                    <div class="col-md-3 mb-md-0 mb-2">
+                        <input type="text" class="form-control shadow-none" placeholder="YOUR NAME" required>
+                    </div>
+                    <div class="col-md-3 mb-md-0 mb-2">
+                        <input type="email" class="form-control shadow-none" placeholder="YOUR EMAIL" required>
+                    </div>
+                    <div class="col-md-3 mb-md-0 mb-2">
+                        <input type="phone" class="form-control shadow-none" placeholder="YOUR PHONE" required>
+                    </div>
+                    <div class="col-md-3">
+                        <button type="submit" class="border-end-0 border-start-0 border-top-0 fw-bold w-100 px-md-4 py-1 read_more rounded-1 text-uppercase">send request</button></div>
+                </form>
+                <p class="font-6 agency_light mb-0 mx-auto py-md-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error illum magnam sequi recusandae natus eveniet rerum odio veniam necessitatibus, sint enim ratione dolor aliquid quis ex, voluptatem unde in neque!</p>
+            </div>
+        </section>
+        <section class="container">
+            <div class="agency_section_four text-center py-5">
+                <h1 class="fw-bold pt-md-4">OUR <span class="agency_theme_color">SERVICES</span></h1>
+                <p class=" agency_secondary_color mx-auto mt-md-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident iusto debitis sit libero necessitatibus optio quia eaque rem, quidem unde amet quas</p>
+            </div>
+            <div class="row py-5">
+                <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+                    <div class="position-relative p-3 rounded-2 agency_advantage_color">
+                        <span class="star_col p-3 rounded-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>
+                        </span>
+                        <div class="text-center pt-5">
+                            <h6 class="fw-bold mb-1">INNOVATION</h6>
+                            <p class="agency_secondary_color font-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed diam nonumy eirmod</p>
+                            <a href="#" class="agency_theme_color">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+                    <div class="position-relative p-3 rounded-2 agency_advantage_color">
+                        <span class="star_col p-3 rounded-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>
+                        </span>
+                        <div class="text-center pt-5">
+                            <h6 class="fw-bold mb-1 text-uppercase">graphic design</h6>
+                            <p class="agency_secondary_color font-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed diam nonumy eirmod</p>
+                            <a href="#" class="agency_theme_color">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-lg-0 mb-5">
+                    <div class="position-relative p-3 rounded-2 agency_advantage_color">
+                        <span class="star_col p-3 rounded-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>
+                        </span>
+                        <div class="text-center pt-5">
+                            <h6 class="fw-bold mb-1 text-uppercase">branding</h6>
+                            <p class="agency_secondary_color font-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed diam nonumy eirmod</p>
+                            <a href="#" class="agency_theme_color">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-lg-0 mb-2">
+                    <div class="position-relative p-3 rounded-2 agency_advantage_color">
+                        <span class="star_col p-3 rounded-circle">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" fill="red" class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>
+                        </span>
+                        <div class="text-center pt-5">
+                            <h6 class="fw-bold mb-1 text-uppercase">marketing</h6>
+                            <p class="agency_secondary_color font-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit, sed diam nonumy eirmod</p>
+                            <a href="#" class="agency_theme_color">read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+    <footer class="bright_color">
+        <article>
+            <section class="container py-lg-5">
+                <div class="row pt-lg-0 pt-5">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <img src="./images/footer-logo.png" alt="agency-logo" class="w-50">
+                        <p class="font-7 agency_light mb-0 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                        <p class="text-white pt-md-5 d-md-block d-none">© Agency 2016</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-lg-0 mb-4 agency_end_border">
+                        <h4 class="text-uppercase fw-bold pt-lg-0 pt-5 text-white">services</h4>
+                        <div class="d-flex flex-column gap-2">
+                            <a href="#" class="text-white">Lorem ipsum</a>
+                            <a href="#" class="text-white">Lorem</a>
+                            <a href="#" class="text-white">Lorem ipsum dolor</a>
+                            <a href="#" class="text-white">Lorem ipsum</a>
+                            <a href="#" class="text-white">Lorem</a>
+                            <a href="#" class="text-white">Lorem ipsum dolor</a>
+                            <a href="#" class="text-white">Lorem ipsum dolor</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-lg-0 mb-4 agency_end_border ps-lg-5">
+                        <h4 class="text-uppercase fw-bold text-white">useful links</h4>
+                        <div class="d-flex flex-column gap-2">
+                            <a href="#" class="text-white">Lorem ipsum</a>
+                            <a href="#" class="text-white">Lorem</a>
+                            <a href="#" class="text-white">Lorem ipsum dolor</a>
+                            <a href="#" class="text-white">Lorem ipsum</a>
+                            <a href="#" class="text-white">Lorem</a>
+                            <a href="#" class="text-white">Lorem ipsum dolor</a>
+                            <a href="#" class="text-white">Lorem ipsum dolor</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-lg-0 mb-3 ps-lg-5">
+                        <h4 class="text-uppercase fw-bold text-white">Contacts</h4>
+                        <div class="d-flex flex-column gap-2">
+                            <a href="tel:+1(234)-56-78-90" class="text-white text-decoration-none">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                                </svg>
+                            +1(234)-56-78-90</a>
+                            <a href="tel:+1(234)-56-78-90" class="text-white text-decoration-none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                                    </svg>
+                            +1(234)-56-78-90</a>
+                            <a href="mailto:info@website.com" class="text-white text-decoration-none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fff" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+                                      </svg>    
+                            info@website.com</a>
+                            <div class="pt-md-4 pt-3">
+                                <h4 class="text-uppercase fw-bold text-white">Follow us</h4>
+                                <div class="d-flex align-items-center gap-3">
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#000" class="bi bi-facebook" viewBox="0 0 16 16">
+                                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                          </svg>
+                                    </a>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#000" class="bi bi-twitter" viewBox="0 0 16 16">
+                                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                                          </svg>
+                                    </a>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#000" class="bi bi-google" viewBox="0 0 16 16">
+                                            <path d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"/>
+                                          </svg>
+                                    </a>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#000" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                                          </svg>
+                                    </a>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#000" class="bi bi-youtube" viewBox="0 0 16 16">
+                                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                                          </svg>
+                                    </a> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-block d-md-none text-center">
+                            <p class="text-white mb-0 pt-3">© Agency 2016</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </footer>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
